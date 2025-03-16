@@ -21,18 +21,18 @@ public class HashMapExample {
         map1.put(103,"Orange");// this is the latest value for 103 so orange is considered
         map1.put(104,"Apple");// this is the latest value for 104 so Apple is considered
 
+        // some lines
         System.out.println("map1 is : "+map1);
 
         map1.remove(106);
         System.out.println("map1 after remove : "+map1);
 
+        // some lines
         System.out.println("map1 value of key 102 is : "+map1.get(102));
-
         // traversing
         System.out.println("Traverse the map");
         for(Map.Entry m1 : map1.entrySet()){
             System.out.println(m1.getKey() +"-----------"+m1.getValue());
         }
-
     }
 }

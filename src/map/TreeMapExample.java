@@ -8,7 +8,8 @@ public class TreeMapExample {
     public static void main(String[] args) {
         //definfing treemap
         TreeMap<Integer, String> map1 = new TreeMap<>();
-
+// some lines
+        // some lines
         // adding
         map1.put(104,"Mango");
         map1.put(103,"Guava");
@@ -27,7 +28,6 @@ public class TreeMapExample {
         System.out.println("map1 after remove : "+map1);
 
         System.out.println("map1 value of key 102 is : "+map1.get(102));
-
         // traversing
         System.out.println("Traverse the map");
         for(Map.Entry m1 : map1.entrySet()){
